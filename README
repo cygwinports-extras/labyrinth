@@ -1,0 +1,136 @@
+labyrinth
+------------------------------------------
+Labyrinth is a lightweight mind-mapping tool, written in Python using 
+Gtk and Cairo to do the drawing. It is intended to be as light and 
+intuitive as possible, but still provide a wide range of powerful 
+features.
+
+Runtime requirements:
+  pygobject2-2.12-3
+  pygtk2-2.10.3-1
+  python-2.4.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  intltool-0.35.4-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gnome.org/~dscorgie/labyrinth.html
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/gnome/sources/labyrinth/
+
+-------------------------------------------
+
+Build instructions:
+  unpack labyrinth-0.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./labyrinth-0.3-X.cygport all
+
+This will create:
+  /usr/src/labyrinth-0.3-X-src.tar.bz2
+  /usr/src/labyrinth-0.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/labyrinth.sh
+  /usr/bin/labyrinth
+  /usr/lib/python2.4/site-packages/labyrinth/BaseThought.py
+  /usr/lib/python2.4/site-packages/labyrinth/BaseThought.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/BaseThought.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/Browser.py
+  /usr/lib/python2.4/site-packages/labyrinth/Browser.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/Browser.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/DrawingThought.py
+  /usr/lib/python2.4/site-packages/labyrinth/DrawingThought.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/DrawingThought.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/ImageThought.py
+  /usr/lib/python2.4/site-packages/labyrinth/ImageThought.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/ImageThought.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/Links.py
+  /usr/lib/python2.4/site-packages/labyrinth/Links.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/Links.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/MMapArea.py
+  /usr/lib/python2.4/site-packages/labyrinth/MMapArea.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/MMapArea.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/MainWindow.py
+  /usr/lib/python2.4/site-packages/labyrinth/MainWindow.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/MainWindow.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/MapList.py
+  /usr/lib/python2.4/site-packages/labyrinth/MapList.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/MapList.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/TextBufferMarkup.py
+  /usr/lib/python2.4/site-packages/labyrinth/TextBufferMarkup.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/TextBufferMarkup.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/TextThought.py
+  /usr/lib/python2.4/site-packages/labyrinth/TextThought.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/TextThought.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/TrayIcon.py
+  /usr/lib/python2.4/site-packages/labyrinth/TrayIcon.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/TrayIcon.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/UndoManager.py
+  /usr/lib/python2.4/site-packages/labyrinth/UndoManager.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/UndoManager.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/__init__.py
+  /usr/lib/python2.4/site-packages/labyrinth/__init__.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/__init__.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/defs.py
+  /usr/lib/python2.4/site-packages/labyrinth/defs.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/defs.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/prefs.py
+  /usr/lib/python2.4/site-packages/labyrinth/prefs.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/prefs.pyo
+  /usr/lib/python2.4/site-packages/labyrinth/utils.py
+  /usr/lib/python2.4/site-packages/labyrinth/utils.pyc
+  /usr/lib/python2.4/site-packages/labyrinth/utils.pyo
+  /usr/share/applications/labyrinth.desktop
+  /usr/share/doc/Cygwin/labyrinth-0.3.README
+  /usr/share/doc/labyrinth-0.3/AUTHORS
+  /usr/share/doc/labyrinth-0.3/COPYING
+  /usr/share/doc/labyrinth-0.3/ChangeLog
+  /usr/share/doc/labyrinth-0.3/FileFormat
+  /usr/share/doc/labyrinth-0.3/INSTALL
+  /usr/share/doc/labyrinth-0.3/NEWS
+  /usr/share/doc/labyrinth-0.3/README
+  /usr/share/doc/labyrinth-0.3/TheFuture
+  /usr/share/icons/hicolor/16x16/apps/labyrinth.png
+  /usr/share/icons/hicolor/22x22/apps/labyrinth.png
+  /usr/share/icons/hicolor/24x24/apps/labyrinth.png
+  /usr/share/icons/hicolor/scalable/apps/labyrinth.svg
+  /usr/share/labyrinth/labyrinth-ui.xml
+  /usr/share/labyrinth/labyrinth.glade
+  /usr/share/locale/ca/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/cs/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/de/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/eu/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/fr/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/nl/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/pl/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/pt_PT/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/ru/LC_MESSAGES/labyrinth.mo
+  /usr/share/locale/sv/LC_MESSAGES/labyrinth.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
