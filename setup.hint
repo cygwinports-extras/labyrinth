@@ -1,5 +1,5 @@
 category: Gnome
-requires: pygobject2 pygtk2 python
+requires: python python-gobject2 python-gtk2
 sdesc: "GNOME mind-mapping tool"
 ldesc: "Labyrinth is a lightweight mind-mapping tool, written in Python 
 using Gtk and Cairo to do the drawing. It is intended to be as light and 
