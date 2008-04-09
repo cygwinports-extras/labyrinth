@@ -1,0 +1,8 @@
+inherit gnome2
+
+DESCRIPTION="GNOME mind-mapping tool"
+HOMEPAGE="http://www.gnome.org/~dscorgie/labyrinth.html"
+
+DIFF_EXCLUDES="m4"
+
+DOCS="doc/FileFormat doc/TheFuture"
